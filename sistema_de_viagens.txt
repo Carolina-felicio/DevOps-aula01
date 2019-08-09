@@ -1,0 +1,70 @@
+Ana Carolina Felicio   1900281	
+Erick Fernandes        1900550
+Larissa Bulgurlu       1900549
+Guilherme Vilela       1900486
+Guilherme Nunes        1802513
+
+Análise - Ana Carolina Felicio
+Design - Erick Fernandes 
+Codificação - Larissa Bulgurlu
+Teste - Guilherme Vilela
+Operação - Guilherme Nunes
+
+Tema: Viagens
+
+Análise
+	
+Viajante do site de viagens da companhia nos reportou que estava com dificuldade em realizar a requisição
+no site, ao tentar escolher um hotel a tela do sistema fica indisponível e aparece uma mensagem: "Sistema 
+não aceita o formato da cotação, tente novamente", sendo que o consultor da empresa havia inserido a cotação
+corretamente de acordo com as parametrizações do site de viagens. 
+Precisamos verificar quais parametrizações foram configuradas no ambiente do cliente, para assim conseguirmos 
+auxiliar o cliente em questão da indisponibilidade.
+
+
+Design
+
+Componentes necessários para resolução do problema:
+
+- Identificar o erro na parametrização. 
+- Verificar se a política relacionada com a parametrização estava incorreta.
+- Ajustar a máscara de remark da viagem do cliente.
+
+
+Codificação
+
+- Feito no sistema Amadeus;
+- Utilizado comandos padronizados específicos do cliente
+em questão
+- Adicionado a máscara de remark para que esse erro não
+volte à aparecer.
+
+Teste
+
+Análise
+
+Viajante do site de viagens da companhia nos reportou que estava com dificuldade em realizar a requisição no site, ao tentar escolher um hotel a tela do sistema fica indisponível e aparece uma mensagem: "Sistema não aceita o formato da cotação, tente novamente", sendo que o consultor da empresa havia inserido a cotação corretamente de acordo com as parametrizações do site de viagens. Precisamos verificar quais parametrizações foram configuradas no ambiente do cliente, para assim conseguirmos
+auxiliar o cliente em questão da indisponibilidade. – OK
+ 
+Design
+ 
+Componentes necessários para resolução do problema:
+- Identificar o erro na parametrização. - OK
+- Verificar se a política relacionada com a parametrização estava incorreta. – OK
+- Ajustar a máscara de remark da viagem do cliente. - OK
+
+Codificação
+
+- Feito no sistema Amadeus - OK
+- Utilizado comandos padronizados específicos do cliente em questão - OK
+- Adicionado a máscara de remark para que esse erro não volte à aparecer - OK
+
+
+Operação
+
+Após validar os testes, colocar em produção o sistema Amadeus, conclui-se que o problema foi uma política 
+incorreta na parametrização, e com os teste foram solucionados.
+
+
+
+
