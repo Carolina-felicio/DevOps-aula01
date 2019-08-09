@@ -1,0 +1,3 @@
+- Feito no sistema Amadeus;
+- Utilizado comandos padronizados especificos do cliente em questao;
+- Adicionado a mascara de remark para que esse erro nao volte a aparecer;
