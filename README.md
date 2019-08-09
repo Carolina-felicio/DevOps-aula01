@@ -7,3 +7,8 @@ não aceita o formato da cotação, tente novamente", sendo que o consultor da e
 corretamente de acordo com as parametrizações do site de viagens. 
 Precisamos verificar quais parametrizações foram configuradas no ambiente do cliente, para assim conseguirmos 
 auxiliar o cliente em questão da indisponibilidade.
+
+Operação
+
+Após validar os testes, colocar em produção o sistema Amadeus, conclui-se que o problema foi uma política 
+incorreta na parametrização, e com os teste foram solucionados.
